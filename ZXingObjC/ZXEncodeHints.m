@@ -26,15 +26,8 @@
 @synthesize pdf417Dimensions;
 
 + (id)hints {
-  return [[[self alloc] init] autorelease];
+  return [[self alloc] init];
 }
 
-- (void)dealloc {
-  [errorCorrectionLevel release];
-  [margin release];
-  [pdf417Dimensions release];
-
-  [super dealloc];
-}
 
 @end

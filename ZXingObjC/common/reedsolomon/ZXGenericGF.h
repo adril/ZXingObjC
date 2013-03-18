@@ -26,8 +26,8 @@
 
 @interface ZXGenericGF : NSObject
 
-@property (nonatomic, retain, readonly) ZXGenericGFPoly *zero;
-@property (nonatomic, retain, readonly) ZXGenericGFPoly *one;
+@property (nonatomic, strong, readonly) ZXGenericGFPoly *zero;
+@property (nonatomic, strong, readonly) ZXGenericGFPoly *one;
 @property (nonatomic, assign, readonly) int size;
 
 + (ZXGenericGF *)AztecData12;
