@@ -695,7 +695,6 @@ static bool isIPad() {
 
 - (id)init {
   if ((self = [super init])) {
-    [self release];
   }
   return 0;
 }
